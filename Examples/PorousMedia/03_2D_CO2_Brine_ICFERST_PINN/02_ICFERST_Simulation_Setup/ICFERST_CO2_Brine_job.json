@@ -1,0 +1,49 @@
+{
+  "completion": {
+    "required_minimum_vtu_files": 16,
+    "required_terminal_time_s": 25920000.0,
+    "terminal_time_source": "stat-column-1"
+  },
+  "execution": {
+    "automatic_retry": false,
+    "destination": "host-b",
+    "global_lock": "/tmp/icferst-global-run.lock",
+    "mpi_ranks": 1,
+    "result_root": "/home/henglai/.icferst-evidence/pinn-case3",
+    "threads_per_rank": 1,
+    "timeout_seconds": 7200
+  },
+  "format": "pinn-case3-hostb-job-v1",
+  "inputs": {
+    "co2_brine_2d.mpml": "f689d421829aab495a6e5b27a8cd89cc943eae3524e772d96ae866e759fb0856",
+    "co2_brine_2d.msh": "5e4345ef64e84c917b7c0646894f8793a5bbd06afc86340d373a89ce294f57b2"
+  },
+  "job_id": "case3-co2-brine-v01",
+  "model": {
+    "corey_brine": 2.0,
+    "corey_co2": 2.0,
+    "dump_period_steps": 20,
+    "final_time_s": 25920000.0,
+    "lx_m": 300.0,
+    "ly_m": 150.0,
+    "mu_brine_pa_s": 0.001,
+    "mu_co2_pa_s": 7e-05,
+    "nx": 61,
+    "ny": 31,
+    "outlet_pressure_pa": 10000000.0,
+    "permeability_m2": 1e-12,
+    "phi": 0.2,
+    "q0_m_s": 1e-06,
+    "rho_brine": 1000.0,
+    "rho_co2": 700.0,
+    "scr": 0.0,
+    "swr": 0.2,
+    "timestep_s": 86400.0
+  },
+  "source": {
+    "remote_binary_sha256": "0e5aabae748b7f203a89123cd4858ce3a9748653c954a1f947df6c9ec7f117ed",
+    "remote_project": "/home/henglai/MultiFluids/SPE11/project4_icferst_spe11_no_source_changes",
+    "source_tree_sha256": "7c54fda0a9d92ff53818bcbf899a34756ddc496f6520864a81ddec6315a5a4a6"
+  },
+  "status": "READY_TO_LAUNCH"
+}

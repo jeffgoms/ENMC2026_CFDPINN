@@ -1,0 +1,124 @@
+{
+  "format": "co2-brine-icferst-full-manifest-v1",
+  "generated_files": {
+    "co2_brine_icferst_teaching.json": {
+      "bytes": 6727,
+      "sha256": "f23d1e041b792bd78147ad956aef3e8d6f3a862d2593e43f7c3f443b6d7db0ba"
+    },
+    "co2_brine_icferst_teaching.npz": {
+      "bytes": 1148391,
+      "sha256": "503c2bd1c2672e2cdfa3d41442c312582c4e7eb0a2c3c9e69ad86e0f8de24940"
+    }
+  },
+  "source_directory": "/home/henglai_pc/storeplace1/PINNnew2/PINN_simplecase/validation/co2_brine/hostb/case3-co2-brine-v01/attempt-001",
+  "source_files": {
+    "CO2_Brine_2D.stat": {
+      "bytes": 777611,
+      "sha256": "4444451a6861f9babb3e0902a4ea6da8838c18beb12e6eb8bed51c76a9b17242"
+    },
+    "CO2_Brine_2D_0.vtu": {
+      "bytes": 53041,
+      "sha256": "ed85a56fa351ef892a87fc8713da5d885adb02d4df4fdb85c8cda6d7badc6b3f"
+    },
+    "CO2_Brine_2D_1.vtu": {
+      "bytes": 150498,
+      "sha256": "9955a4ec2b0f196ac19bf920cfd632be9cad04ee89194857baf53634e758441c"
+    },
+    "CO2_Brine_2D_10.vtu": {
+      "bytes": 223124,
+      "sha256": "ac4eb5b68be96e5b2e4806e005a0ea9e58c64a633cc26f8fc896b7c2da9bc0d3"
+    },
+    "CO2_Brine_2D_11.vtu": {
+      "bytes": 230572,
+      "sha256": "cda1f86e15497e8bc30dc288de2323a0ac5ebf0dfddc79288f2d9bdba13c2e04"
+    },
+    "CO2_Brine_2D_12.vtu": {
+      "bytes": 237613,
+      "sha256": "3bcded86a31d762adbeffeaf762e623fd5cd969e97504a7bf753c1d6c31f71db"
+    },
+    "CO2_Brine_2D_13.vtu": {
+      "bytes": 239495,
+      "sha256": "d733d1c92d8b00625effae0c16ddbd0158e52383f55b5fe80ea7ec005ee4c3f7"
+    },
+    "CO2_Brine_2D_14.vtu": {
+      "bytes": 240095,
+      "sha256": "5f02cfbe5b0ccf42c0ed43d01809c0c19c099657a617d49f43b3faab0159d85a"
+    },
+    "CO2_Brine_2D_15.vtu": {
+      "bytes": 240192,
+      "sha256": "cfb94d585cf97ef3f92f23ccfda821397fcf184a7130ccfed533be9c5c43de08"
+    },
+    "CO2_Brine_2D_16.vtu": {
+      "bytes": 240192,
+      "sha256": "cfb94d585cf97ef3f92f23ccfda821397fcf184a7130ccfed533be9c5c43de08"
+    },
+    "CO2_Brine_2D_2.vtu": {
+      "bytes": 151162,
+      "sha256": "a7b0615dad273fe69f924049f41cb1d2270ec5d6a2f0dc6622e039dd5724b86c"
+    },
+    "CO2_Brine_2D_3.vtu": {
+      "bytes": 168056,
+      "sha256": "2695062e6e3ed5bb2e960824ec7efe3e769762a92baa4c673fab1ffbd9e416fb"
+    },
+    "CO2_Brine_2D_4.vtu": {
+      "bytes": 168481,
+      "sha256": "81219ffdf804336b347b672a939fae8b86452916de443f3da215fde590b7b45a"
+    },
+    "CO2_Brine_2D_5.vtu": {
+      "bytes": 184337,
+      "sha256": "dbe26d36e552389b1f52da4a4e56119d0c0c8e71efc5db95eb5bdfd62e8d1246"
+    },
+    "CO2_Brine_2D_6.vtu": {
+      "bytes": 186512,
+      "sha256": "e12663ec8f19161a0aceefe36fd44e8fd27fc2e55379d11a9e7a6fa70033e1b5"
+    },
+    "CO2_Brine_2D_7.vtu": {
+      "bytes": 194742,
+      "sha256": "db634e555a5b0f6a97956bb5b39efa0aaf600d2f9c652155869045e547901b4d"
+    },
+    "CO2_Brine_2D_8.vtu": {
+      "bytes": 207916,
+      "sha256": "c0750f0b5dcac61f7e62862e571a42afca6cf8825ef08ce19d14796febd04815"
+    },
+    "CO2_Brine_2D_9.vtu": {
+      "bytes": 212413,
+      "sha256": "33641442c863e19dc43962cbc83fea94d9fee14700f6818a9366f8ecb63f21f1"
+    },
+    "checksums.sha256": {
+      "bytes": 2172,
+      "sha256": "8a8b2ed98a3580db61a31cc574323a7f2f5ffbbc1522fc0089b34e563dcb9457"
+    },
+    "co2_brine_2d.mpml": {
+      "bytes": 13881,
+      "sha256": "f689d421829aab495a6e5b27a8cd89cc943eae3524e772d96ae866e759fb0856"
+    },
+    "co2_brine_2d.msh": {
+      "bytes": 130000,
+      "sha256": "5e4345ef64e84c917b7c0646894f8793a5bbd06afc86340d373a89ce294f57b2"
+    },
+    "command.json": {
+      "bytes": 213,
+      "sha256": "253bc12a4d74a23b2ae103914095ad2755c3ec0b63b0d00def476a43cc43d731"
+    },
+    "environment.json": {
+      "bytes": 414,
+      "sha256": "7a2cabdb4bb36cd1dbb4f5ed50c826b635b347e046df26dc358ba0db2d8f166c"
+    },
+    "job.json": {
+      "bytes": 1493,
+      "sha256": "19371ef13f80d5a0ef5cef822a628fda7da6ce4002d518deaf776c312e5db751"
+    },
+    "result.json": {
+      "bytes": 221,
+      "sha256": "d10217a073fac7058dca8bc14d482deef1dd9c053bee4d8bbb9dcc13f9a705ec"
+    },
+    "stderr.log": {
+      "bytes": 22,
+      "sha256": "607bd6025c3bfc0e434b262c84730f3a2980d53b1475b8c0e7624af73c730e1f"
+    },
+    "stdout.log": {
+      "bytes": 293,
+      "sha256": "a95065a4dfbf0411509ce99f6bc90db4889946e2c8aa9d4100609ed6388303ed"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "accepted": true,
+  "checks": {
+    "finite": true,
+    "front_error_mean_m": true,
+    "inventory_error_max": true,
+    "pressure_drop_mae_max": true,
+    "saturation_bounds": true,
+    "saturation_mae_max": true,
+    "saturation_rel_l2_max": true
+  },
+  "config": {
+    "depth": 5,
+    "final_learning_rate": 2e-05,
+    "iterations": 12000,
+    "learning_rate": 0.0005,
+    "n_boundary": 256,
+    "n_obs": 8192,
+    "n_pde": 512,
+    "saturation_pretrain_batch_size": 8192,
+    "saturation_pretrain_iterations": 6000,
+    "seed": 42,
+    "weights": {
+      "data_pressure": 20.0,
+      "data_saturation": 100.0,
+      "initial": 10.0,
+      "inlet": 5.0,
+      "inventory": 100.0,
+      "no_flow": 0.5,
+      "outlet": 1.0,
+      "pde_brine": 0.1,
+      "pde_co2": 0.1
+    },
+    "width": 96
+  },
+  "dataset_sha256": "503c2bd1c2672e2cdfa3d41442c312582c4e7eb0a2c3c9e69ad86e0f8de24940",
+  "device": "cuda",
+  "environment": {
+    "hostname": "henglai-Lenovo",
+    "python": "3.8.10",
+    "torch": "2.4.1+cu121"
+  },
+  "finite": true,
+  "front_error_mean_m": 4.413354772944948,
+  "inventory_error_max": 0.03434968438940442,
+  "mode": "accurate",
+  "per_snapshot": [
+    {
+      "front_coverage": 1.0,
+      "front_error_mean_m": 1.2581005918374422,
+      "inventory_error": 0.015323156964313888,
+      "pressure_drop_mae": 0.007298669859933645,
+      "saturation_mae": 0.0025616998460276743,
+      "saturation_rel_l2": 0.13062047333496632,
+      "snapshot_id": 1,
+      "time_days": 20.0,
+      "time_s": 1728000.0
+    },
+    {
+      "front_coverage": 1.0,
+      "front_error_mean_m": 1.670688255119848,
+      "inventory_error": 0.0002856428195265058,
+      "pressure_drop_mae": 0.0030051516246855504,
+      "saturation_mae": 0.00865003595426059,
+      "saturation_rel_l2": 0.10136918899521322,
+      "snapshot_id": 5,
+      "time_days": 100.0,
+      "time_s": 8640000.0
+    },
+    {
+      "front_coverage": 1.0,
+      "front_error_mean_m": 4.9861796031137375,
+      "inventory_error": 0.0025857986267849914,
+      "pressure_drop_mae": 0.0078028528570186695,
+      "saturation_mae": 0.0217565388432137,
+      "saturation_rel_l2": 0.1308027873504266,
+      "snapshot_id": 10,
+      "time_days": 200.0,
+      "time_s": 17280000.0
+    },
+    {
+      "front_coverage": 1.0,
+      "front_error_mean_m": 9.127756284075053,
+      "inventory_error": 0.03434968438940442,
+      "pressure_drop_mae": 0.033581020982163645,
+      "saturation_mae": 0.021205643382225785,
+      "saturation_rel_l2": 0.10512260009963861,
+      "snapshot_id": 15,
+      "time_days": 300.0,
+      "time_s": 25920000.0
+    }
+  ],
+  "pressure_drop_mae_max": 0.033581020982163645,
+  "runtime_seconds": 459.1746575832367,
+  "saturation_mae_max": 0.0217565388432137,
+  "saturation_max": 0.5361558198928833,
+  "saturation_min": 8.137817349052057e-05,
+  "saturation_rel_l2_max": 0.1308027873504266,
+  "thresholds": {
+    "front_error_mean_m": 24.0,
+    "inventory_error_max": 0.08,
+    "pressure_drop_mae_max": 0.1,
+    "saturation_mae_max": 0.06,
+    "saturation_rel_l2_max": 0.2
+  }
+}

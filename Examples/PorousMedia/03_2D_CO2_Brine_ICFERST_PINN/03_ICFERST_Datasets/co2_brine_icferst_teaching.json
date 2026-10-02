@@ -1,0 +1,257 @@
+{
+  "accepted_vtu_files": [
+    "CO2_Brine_2D_0.vtu",
+    "CO2_Brine_2D_1.vtu",
+    "CO2_Brine_2D_2.vtu",
+    "CO2_Brine_2D_3.vtu",
+    "CO2_Brine_2D_4.vtu",
+    "CO2_Brine_2D_5.vtu",
+    "CO2_Brine_2D_6.vtu",
+    "CO2_Brine_2D_7.vtu",
+    "CO2_Brine_2D_8.vtu",
+    "CO2_Brine_2D_9.vtu",
+    "CO2_Brine_2D_10.vtu",
+    "CO2_Brine_2D_11.vtu",
+    "CO2_Brine_2D_12.vtu",
+    "CO2_Brine_2D_13.vtu",
+    "CO2_Brine_2D_14.vtu",
+    "CO2_Brine_2D_15.vtu"
+  ],
+  "array_dtypes": {
+    "collocation_pool_rows": "int64",
+    "heldout_rows": "int64",
+    "heldout_snapshot_ids": "int64",
+    "is_boundary": "bool",
+    "observation_rows": "int64",
+    "pressure_pa": "float64",
+    "s_brine": "float64",
+    "s_co2": "float64",
+    "snapshot_id": "int64",
+    "time_s": "float64",
+    "x_m": "float64",
+    "y_m": "float64"
+  },
+  "array_shapes": {
+    "collocation_pool_rows": [
+      129600
+    ],
+    "heldout_rows": [
+      43200
+    ],
+    "heldout_snapshot_ids": [
+      4
+    ],
+    "is_boundary": [
+      172800
+    ],
+    "observation_rows": [
+      12320
+    ],
+    "pressure_pa": [
+      172800
+    ],
+    "s_brine": [
+      172800
+    ],
+    "s_co2": [
+      172800
+    ],
+    "snapshot_id": [
+      172800
+    ],
+    "time_s": [
+      172800
+    ],
+    "x_m": [
+      172800
+    ],
+    "y_m": [
+      172800
+    ]
+  },
+  "dataset_npz_sha256": "503c2bd1c2672e2cdfa3d41442c312582c4e7eb0a2c3c9e69ad86e0f8de24940",
+  "duplicate_vtu_files_ignored": [
+    "CO2_Brine_2D_16.vtu"
+  ],
+  "field_mapping": {
+    "pressure_pa": "brine::Pressure",
+    "s_brine": "brine::PhaseVolumeFraction",
+    "s_co2": "CO2::PhaseVolumeFraction",
+    "time_s": "brine::Time"
+  },
+  "fixed_parameters": {
+    "corey_brine": 2.0,
+    "corey_co2": 2.0,
+    "dump_period_steps": 20,
+    "final_time_s": 25920000.0,
+    "lx_m": 300.0,
+    "ly_m": 150.0,
+    "mu_brine_pa_s": 0.001,
+    "mu_co2_pa_s": 7e-05,
+    "nx": 61,
+    "ny": 31,
+    "outlet_pressure_pa": 10000000.0,
+    "permeability_m2": 1e-12,
+    "phi": 0.2,
+    "q0_m_s": 1e-06,
+    "rho_brine": 1000.0,
+    "rho_co2": 700.0,
+    "scr": 0.0,
+    "swr": 0.2,
+    "timestep_s": 86400.0
+  },
+  "format": "co2-brine-icferst-teaching-v1",
+  "injected_m3_per_m_depth": [
+    0.0,
+    207.35999999999999,
+    414.71999999999997,
+    622.0799999999999,
+    829.4399999999999,
+    1036.8,
+    1244.1599999999999,
+    1451.52,
+    1658.8799999999999,
+    1866.2399999999998,
+    2073.6,
+    2280.9599999999996,
+    2488.3199999999997,
+    2695.68,
+    2903.04,
+    3110.3999999999996
+  ],
+  "input_sha256": {
+    "co2_brine_2d.mpml": "f689d421829aab495a6e5b27a8cd89cc943eae3524e772d96ae866e759fb0856",
+    "co2_brine_2d.msh": "5e4345ef64e84c917b7c0646894f8793a5bbd06afc86340d373a89ce294f57b2"
+  },
+  "inventory_m3_per_m_depth": [
+    0.0,
+    207.31322997082435,
+    414.6705369481334,
+    622.0286066142139,
+    829.3815065053589,
+    1036.7329075292007,
+    1244.0847816044468,
+    1451.4379522179515,
+    1658.7925049312162,
+    1866.1487507437987,
+    2073.507230386992,
+    2280.8674460075504,
+    2488.2297138035574,
+    2675.300033114052,
+    2796.492680444648,
+    2894.3796486994484
+  ],
+  "npz_keys": [
+    "x_m",
+    "y_m",
+    "time_s",
+    "pressure_pa",
+    "s_co2",
+    "s_brine",
+    "snapshot_id",
+    "is_boundary",
+    "observation_rows",
+    "heldout_rows",
+    "heldout_snapshot_ids",
+    "collocation_pool_rows"
+  ],
+  "outflow_m3_per_m_depth": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    2.175207336172981e-06,
+    34.8225669005242,
+    121.08367753521392,
+    231.26844960612198
+  ],
+  "outlet_flux_m2_s": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    2.517601083533543e-12,
+    4.030389184040455e-05,
+    5.9535356579375224e-05,
+    6.799331479899056e-05
+  ],
+  "run_directory": "/home/henglai_pc/storeplace1/PINNnew2/PINN_simplecase/validation/co2_brine/hostb/case3-co2-brine-v01/attempt-001",
+  "seed": 42,
+  "snapshot_times_s": [
+    0.0,
+    1728000.0,
+    3456000.0,
+    5184000.0,
+    6912000.0,
+    8640000.0,
+    10368000.0,
+    12096000.0,
+    13824000.0,
+    15552000.0,
+    17280000.0,
+    19008000.0,
+    20736000.0,
+    22464000.0,
+    24192000.0,
+    25920000.0
+  ],
+  "source": {
+    "remote_binary_sha256": "0e5aabae748b7f203a89123cd4858ce3a9748653c954a1f947df6c9ec7f117ed",
+    "remote_project": "/home/henglai/MultiFluids/SPE11/project4_icferst_spe11_no_source_changes",
+    "source_tree_sha256": "7c54fda0a9d92ff53818bcbf899a34756ddc496f6520864a81ddec6315a5a4a6"
+  },
+  "split_rule": "complete-time holdout; <=10% sparse labels from remaining interior rows",
+  "units": {
+    "pressure_pa": "Pa",
+    "s_brine": "1",
+    "s_co2": "1",
+    "time_s": "s",
+    "x_m": "m",
+    "y_m": "m"
+  },
+  "validation": {
+    "finite": true,
+    "inventory_non_decreasing": true,
+    "mass_closure_relative": 0.005357683409965705,
+    "phase_sum_max_abs_error": 7.788856004609102e-09,
+    "saturation_bounds": true,
+    "source_checksums_valid": true,
+    "status": "PASS",
+    "usable_snapshots": 16
+  },
+  "vtu_sha256": {
+    "CO2_Brine_2D_0.vtu": "ed85a56fa351ef892a87fc8713da5d885adb02d4df4fdb85c8cda6d7badc6b3f",
+    "CO2_Brine_2D_1.vtu": "9955a4ec2b0f196ac19bf920cfd632be9cad04ee89194857baf53634e758441c",
+    "CO2_Brine_2D_10.vtu": "ac4eb5b68be96e5b2e4806e005a0ea9e58c64a633cc26f8fc896b7c2da9bc0d3",
+    "CO2_Brine_2D_11.vtu": "cda1f86e15497e8bc30dc288de2323a0ac5ebf0dfddc79288f2d9bdba13c2e04",
+    "CO2_Brine_2D_12.vtu": "3bcded86a31d762adbeffeaf762e623fd5cd969e97504a7bf753c1d6c31f71db",
+    "CO2_Brine_2D_13.vtu": "d733d1c92d8b00625effae0c16ddbd0158e52383f55b5fe80ea7ec005ee4c3f7",
+    "CO2_Brine_2D_14.vtu": "5f02cfbe5b0ccf42c0ed43d01809c0c19c099657a617d49f43b3faab0159d85a",
+    "CO2_Brine_2D_15.vtu": "cfb94d585cf97ef3f92f23ccfda821397fcf184a7130ccfed533be9c5c43de08",
+    "CO2_Brine_2D_16.vtu": "cfb94d585cf97ef3f92f23ccfda821397fcf184a7130ccfed533be9c5c43de08",
+    "CO2_Brine_2D_2.vtu": "a7b0615dad273fe69f924049f41cb1d2270ec5d6a2f0dc6622e039dd5724b86c",
+    "CO2_Brine_2D_3.vtu": "2695062e6e3ed5bb2e960824ec7efe3e769762a92baa4c673fab1ffbd9e416fb",
+    "CO2_Brine_2D_4.vtu": "81219ffdf804336b347b672a939fae8b86452916de443f3da215fde590b7b45a",
+    "CO2_Brine_2D_5.vtu": "dbe26d36e552389b1f52da4a4e56119d0c0c8e71efc5db95eb5bdfd62e8d1246",
+    "CO2_Brine_2D_6.vtu": "e12663ec8f19161a0aceefe36fd44e8fd27fc2e55379d11a9e7a6fa70033e1b5",
+    "CO2_Brine_2D_7.vtu": "db634e555a5b0f6a97956bb5b39efa0aaf600d2f9c652155869045e547901b4d",
+    "CO2_Brine_2D_8.vtu": "c0750f0b5dcac61f7e62862e571a42afca6cf8825ef08ce19d14796febd04815",
+    "CO2_Brine_2D_9.vtu": "33641442c863e19dc43962cbc83fea94d9fee14700f6818a9366f8ecb63f21f1"
+  }
+}
